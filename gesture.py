@@ -109,13 +109,13 @@ while(1):
                 if arearatio<12:
                     cv2.putText(frame,'0',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
                 elif arearatio<17.5:
-                    cv2.putText(frame,'Best of luck',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
+                    cv2.putText(frame,'Everything is okay & Best of luck',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
                    
                 else:
                     cv2.putText(frame,'1',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
                     
         elif l==2:
-            cv2.putText(frame,'2',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
+            cv2.putText(frame,'Peace',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
             
         elif l==3:
          
